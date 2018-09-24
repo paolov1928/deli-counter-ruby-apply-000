@@ -16,7 +16,7 @@ end
 
 
 def take_a_number(katz_deli)
-    katz_deli << ""
+    counter = katz_deli.length
     lengths = katz_deli.length #good because this is the old length but given people like +1 compared to computer notation
     puts "Welcome, #{new_person}. You are number #{lengths} in line."
 end
