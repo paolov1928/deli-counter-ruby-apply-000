@@ -7,7 +7,7 @@ def line(input)
   if input == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: "+input.map.with_index { |person,index| "#{index+1}. #{person} " } .join("") .rstrip
+    puts "The line is currently: "+input.map.with_index { |person,index| "#{index+1}. #{person}" } .join(" ")
   end
 end
 #quite pleased with this and i feel is actually more succinct than the solution given. Didnt realise that if you add a 1 in brackets (as the argument to .with index) will add 1 to all indexes.
